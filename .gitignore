@@ -1,0 +1,26 @@
+# Binários compilados
+*.out
+*.exe
+*_debug
+a.out
+
+# Arquivos temporários
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+
+# VS Code (mantenha apenas as configs que criamos)
+.vscode/*.log
+.vscode/ipch/
+
+# Arquivos de input/output de testes
+*.in
+*.ans
+input.txt
+output.txt
+
+# Não ignore as pastas de solução
+!dia*/solucoes/
